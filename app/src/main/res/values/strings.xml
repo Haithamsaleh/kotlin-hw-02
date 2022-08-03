@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">w01d01</string>
     <string name="todo">TODO</string>
+    <string name="test">test</string>
+    <string name="string_text_placeholder">string/text_placeholder</string>
+    <string name="text_placeholder">string/text_placeholder</string>
 </resources>

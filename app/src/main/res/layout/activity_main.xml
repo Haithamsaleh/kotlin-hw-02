@@ -1,43 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="17dp"
     tools:context=".MainActivity">
+
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        app:srcCompat="@drawable/general"
+
+         />
+
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-99dp"
+
+        android:background="@color/purple_500" />
+
+    <TextView
+        android:layout_width="289dp"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/todo"
-        android:scaleType="centerCrop"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/androidparty"
-        tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="-70px"
+        android:fontFamily="sans-serif"
+        android:text="Hello, Welcome to :"
+        android:textColor="@color/white"
+        android:textSize="60px" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20px"
+        android:fontFamily="sans-serif"
+        android:text="Kotlin Bootcamp"
+        android:textColor="@color/white"
+
+        android:textSize="70px" />
+
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20px"
+        android:fontFamily="sans-serif"
+        android:text=" for Programmers . "
+        android:textColor="@color/white"
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="290dp"
+
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="What does the course cover :"
+        android:textColor="@color/white"
+
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="185dp"
+
+        android:layout_height="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text=" Lesson 1: Get started."
+        android:textColor="@color/white" />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-25dp"
+        app:srcCompat="@drawable/icons8_kotlin_96" />
+
+    <TextView
+        android:layout_marginStart="50dp"
+
+        android:layout_width="185dp"
+        android:layout_height="20dp"
+        android:text=" Lesson 2: Kotlin basics."
+        android:textColor="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-25dp"
+        app:srcCompat="@drawable/icons8_kotlin_96" />
+    <TextView
+        android:layout_marginStart="50dp"
+
+        android:layout_width="185dp"
+        android:layout_height="20dp"
+        android:text=" Lesson 3: Functions ."
+        android:textColor="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-25dp"
+        app:srcCompat="@drawable/icons8_kotlin_96" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:rotationX="-11"
-        android:text="Happy Birthday!"
-        android:textColor="@android:color/black"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="31dp"
-        tools:ignore="MissingConstraints" />
+
+        android:layout_height="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text=" Lesson 4: Classes and objects."
+        android:textColor="@color/white" />
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-25dp"
+        app:srcCompat="@drawable/icons8_kotlin_96" />
+    <TextView
+        android:layout_marginStart="50dp"
+
+        android:layout_width="185dp"
+        android:layout_height="20dp"
+        android:text=" Lesson 5.1: Extensions."
+        android:textColor="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-25dp"
+        app:srcCompat="@drawable/icons8_kotlin_96" />
+    <TextView
+        android:layout_marginStart="50dp"
+
+        android:layout_width="185dp"
+        android:layout_height="20dp"
+        android:text=" Lesson 5.2: Generics."
+        android:textColor="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-25dp"
+        app:srcCompat="@drawable/icons8_kotlin_96" />
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="from one!"
-        android:textColor="@android:color/black"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text=" Lesson 6: Functional manipulation."
+        android:textColor="@color/white" />
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-25dp"
+        app:srcCompat="@drawable/icons8_kotlin_96" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start now"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="bottom|center"
+
+
+        android:text=" @ 2022 Tuwaiq Academy. All rights reserved"
+        android:textColor="@color/purple_500"
+        android:textSize="15sp"
+
+        android:textStyle="bold" />
+
+
+</LinearLayout>
